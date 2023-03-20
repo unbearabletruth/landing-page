@@ -1,1 +1,1 @@
-Bulding first web page using css and flexbox
+Building first web page using css and flexbox
