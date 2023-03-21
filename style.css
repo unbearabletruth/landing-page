@@ -53,7 +53,7 @@ body {
     width: 400px;
 }
 
-button {
+button.header {
     padding: 8px 26px;
     background-color: #3882f6;
     color: #e5e7eb;
@@ -80,7 +80,9 @@ a {
 
 .items.info {
     display: flex;
-    max-width: 200px;
+    max-width: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .information.title {
@@ -88,22 +90,108 @@ a {
     justify-content: center;
     font-size: 36px;
     font-weight: 900;
-    margin: 20px 0px;
+    margin: 25px 0px;
 }
 
 .items.img-placeholder {
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     border-radius: 10px;
     border-style: solid;
     border-color: #3882f6;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .information.items {
     display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 75px;
 }
 
 .information {
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0px 400px;
+}
+
+.quote.text {
+    margin-top: 100px;
+    font-size: 36px;
+    font-style: italic;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote.author {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0px;
+    justify-content: center;
+    align-items: end;
+}
+
+.calltoact {
+    padding: 75px 125px;
+}
+
+.calltoact.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: center;
+    gap: 8px;
+}
+.calltoact.container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.calltoact.text {
+    padding: 0px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.calltoact.subtext {
+    padding: 0px;
+    color: #e5e7eb;
+    font-size: 16px;
+    margin: 0px;
+}
+
+button.calltoact {
+    padding: 8px 26px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px;
+    border-color: #e5e7eb;
+    border: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: #f9faf8;
 }
